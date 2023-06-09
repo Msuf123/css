@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    color: aliceblue;
+   
+    text-align: center;
+    
+}
+*{
+    margin: 0px;
+}
+div{
+    
+}
+#top_bar{
+    background-color: rgb(56, 56, 56);
+    
+    width: 100%;
+    margin-top: 0px;
+}
+ul{
+    display: flex;
+    color: yellow;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    font-size:clamp(25px,3.1vw,2.2em) ;
+    margin: 0px;
+    display: inline-block;
+    width: max-content;
+}
+h1{
+    font-size:clamp(24px,2.8vw,1.9em) ;
+    font-family: 'Anton', sans-serif;
+    color: rgb(209, 209, 67);
+    margin: 20px;
+}
+p{
+    background-color: rgb(75, 74, 74);
+    margin: auto;
+    border: 3px solid rgb(92, 92, 28);
+    font-family: 'Signika', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    width: clamp(10vw,80%,1000px);
+    font-size: clamp(17px,2.1vw,1.2em);
+    
+    
+}
+p::before{
+    content: 'About';
+    display: block;
+    font-size: 1.9rem;
+    text-decoration:5px underline rgb(255, 102, 0);
+    font-weight: bolder;
+}
+#fun-facts{
+    background-color: rgb(87, 86, 86);
+    margin:30px auto;
+    border: 3px solid rgb(92, 92, 28);
+    width: clamp(10vw,75%,900px);
+}
+#fun-facts::before{
+    content: 'Interesting Facts';
+    
+}
+#climate::before{
+    content: 'Danger';
+}
